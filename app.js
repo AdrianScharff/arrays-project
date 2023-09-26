@@ -1,4 +1,4 @@
-/* const emptyArray = [];
+const emptyArray = [];
 
 for(let i = 0; i < 10; i ++) {
     let random = Math.floor(Math.random() * 100);
@@ -10,7 +10,7 @@ console.log(emptyArray);
 const input = prompt('Ingresa varias palabras separadas por coma, todas las que quieras');
 const arr = input.split(",");
 
-console.log(arr); */
+console.log(arr);
 
 const uArray = [10,40,30,20,15,5];
 uArray.sort((a, b) => a - b);
